@@ -1,0 +1,189 @@
+/* Reset y básicos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-image: url("https://th.bing.com/th/id/OIP.LceaMXSRJ19EechnLzj0rAHaEK?rs=1&pid=ImgDetMain");
+  background-size: cover;
+  font-family: "Brush Script MT", cursive;
+  font-size: 50px;
+  color:aqua;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+}
+
+#juegos a {
+  text-decoration: none;
+  text-shadow: -3px -3px 0 black,
+    -3px 3px 0 black,
+    3px -3px 0 black,
+    3px 3px 0 black;
+    font-size: 1.5rem;
+    color: #eee;
+}
+
+header {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+button#toggle-sound {
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  margin-top: 0.5rem;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.juego1 {
+  text-decoration: none;
+  background-image: url("bm.1.jpeg");
+  background-size: cover;
+  font-size: 12em;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #6cf;
+  width: 285px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.juego2 {
+  background-image: url("bm.2.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #6cf;
+  width: 285px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.juego3 {
+  background-image: url("scrable.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #6cf;
+  width: 285px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.juego4 {
+  background-image: url("ahorcado.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #6cf;
+  width: 285px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.juego5 {
+  background-image: url("gt.png");
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #6cf;
+  width: 285px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.juego6 {
+  background-image: url("ajedrez.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #6cf;
+  width: 285px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.juego7 {
+  background-image: url("mm.1.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #6cf;
+  width: 285px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.juego8 {
+  background-image: url("mm.2.jpg");
+  background-size: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 8px #6cf;
+  width: 285px;
+  height: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.25rem;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+.juego:hover {
+  background-color: #eee;
+  color: white
+}
+
+/* Canvas efecto flores */
+#efecto-canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  z-index: 9999;
+  width: 100vw;
+  height: 100vh;
+}
